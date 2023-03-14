@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayyan fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body {
+            
+            background: url('img/pexels-cottonbro-studio-4752861.jpg'); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* height: 100vh; */
+            background-position: center;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 8px;
+            text-align: center;
+        }
+
+        .left img {
+            width: 100px;
+        }
+
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 33%;
+            margin: 8px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 10px;
+            display: inline-block;
+            /* border: 2px solid blue; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            color:#fcf6f6;
+            font-size: 26px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 22px 15px
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        div {
+            color: aliceblue;
+            font-size: 20px;
+
+        }
+
+        .btn {
+            font-family: 'Dancing Script', cursive;
+            padding: 0px 41px;
+            margin: 0px 4px;
+            color: aliceblue;
+            background: black;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: rgb(29, 29, 29);
+        }
+
+        .container {
+            /* border: 2px solid white; */
+            margin: 118px 55px;
+            padding: 2px -6px;
+            width: 39%;
+            border-radius: 10px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+
+            width: 240px;
+            padding: 8px;
+            margin: 4px auto;
+            border: 2px solid white;
+            font-size: 17px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            border-radius: 10px;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 23%;
+            margin: auto;
+
+        }
+        .nav-li{
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    
+   
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/000/539/724/small/dumbbell_2__28b_w_29.jpg"
+                alt="">
+            <div>Dayyan fitness</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li class="nav-li"><a href="Home"></a>Home</li>
+                <li class="nav-li"><a href="About"></a>About</li>
+                <li class="nav-li"><a href="Fitness"></a>Fitness</li>
+                <li class="nav-li"><a href="Contact"></a>Contact</li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">call us </button>
+            <button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym in Ambarnath</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your address">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <button class="btn">
+                submit
+            </button>
+        </form>
+    </div>
+    
+
+</body>
+
+</html>
